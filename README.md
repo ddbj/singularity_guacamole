@@ -1,5 +1,5 @@
 # singularity_guacamole
-Remote Desktop や VNC の接続を HTML5 に変換してウェブブラウザで表示する [Apache Guacamole](https://guacamole.apache.org/) を singularity instance で実行するためのレシピファイル・初期化スクリプトです。
+Remote Desktop や VNC の接続を HTTP に変換して HTML5 ウェブブラウザで表示する [Apache Guacamole](https://guacamole.apache.org/) を singularity instance で実行するためのレシピファイル・初期化スクリプトです。
 
 ## singularity image のビルド
 以下のコマンドで singularity image をビルドしてください。
