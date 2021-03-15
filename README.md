@@ -28,6 +28,8 @@ start_container.shを出力しました。
 ## guacamole の接続先の設定
 guacamole_home/user-mapping.xml に接続先情報を追加してください。
 
+※ここもinit.plに入れるべきか？
+
 ## singularity instance の起動
 以下のコマンドで singularity instance を起動します。
 ```
