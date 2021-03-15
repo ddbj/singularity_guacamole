@@ -103,6 +103,8 @@ print "guacamole_home/user-mapping.xmlを出力しました。\n";
 
 # start_container.shの出力
 
+$user_name =~ s/_/-/g;
+
 my $start_container = << "START_CONTAINER";
 #!/bin/bash
 CONTAINER_HOME=\$(cd \$(dirname \$0); pwd)
