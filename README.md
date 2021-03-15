@@ -42,5 +42,7 @@ Using CLASSPATH:       /opt/tomcat/bin/bootstrap.jar:/opt/tomcat/bin/tomcat-juli
 Using CATALINA_OPTS:   
 Tomcat started.
 ```
+guacamole-<guacamoleのログインユーザー名> の名前で singularity instance が起動します。
+
 ## guacamole へのアクセス
 http://localhost:<tomcatのポート番号>/guacamole をウェブブラウザで開いてください。
